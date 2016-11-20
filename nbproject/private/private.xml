@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/LaravelBlog/laravel/resources/views/admin.php</file>
+            <file>file:/C:/xampp/htdocs/LaravelBlog/laravel/resources/views/blog.php</file>
+            <file>file:/C:/xampp/htdocs/LaravelBlog/laravel/app/Http/routes.php</file>
+            <file>file:/C:/xampp/htdocs/LaravelBlog/laravel/app/Http/Controllers/AdminController.php</file>
+            <file>file:/C:/xampp/htdocs/LaravelBlog/laravel/resources/views/innlegg.php</file>
+            <file>file:/C:/xampp/htdocs/LaravelBlog/laravel/app/Http/Controllers/BlogController.php</file>
+            <file>file:/C:/xampp/htdocs/LaravelBlog/laravel/resources/views/blogen.php</file>
+            <file>file:/C:/xampp/htdocs/LaravelBlog/laravel/resources/views/login.php</file>
+            <file>file:/C:/xampp/htdocs/LaravelBlog/laravel/app/Http/Requests/LoginFormRequest.php</file>
+        </group>
+    </open-files>
+</project-private>
