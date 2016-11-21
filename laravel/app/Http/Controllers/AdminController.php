@@ -63,12 +63,15 @@ class AdminController extends Controller
        }
        else if($id == 0){     
            DB::insert('INSERT INTO blog (overskrift, tekst, bilde, forfatter) values (?, ?, ?, ?)', [Input::get('overskrift'),Input::get('innlegg'),$bilde,$logStatus]);
-           return $this->adminMeny($request);
+           $this->uploadImageToAmazon($bilde);
+           //return $this->adminMeny($request);
+           return redirect('/admin');
        }
        else if($id > 0){     
            DB::insert('UPDATE blog SET overskrift = ?, tekst = ?, bilde = ? WHERE id = ?', [Input::get('overskrift'),Input::get('innlegg'),$bilde,$id]);
            $this->uploadImageToAmazon($bilde);
-           return $this->adminMeny($request);
+           //return $this->adminMeny($request);
+           return redirect('/admin');
        }      
    } 
    
@@ -79,8 +82,8 @@ class AdminController extends Controller
                 'version' => '2006-03-01',
                 'region' => 'eu-west-1',
                 'credentials' => array(
-                        'key'    => "AKIAIIZM4SICRIWBDYBQ",
-                        'secret' => "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"
+                        'key'    => "",
+                        'secret' => ""
                 )
             )
         );
